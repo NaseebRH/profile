@@ -1,0 +1,164 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+/*navbar*/
+.navbar {
+    background-color: #4e69a2 !important;
+    padding: 1% 0;
+    font-size: 1.5em;
+
+}
+.nav-item .nav-link em{
+    color: white;
+}
+
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color:white;
+    font-weight: 700;
+   
+}
+nav a.navbar-brand{
+    color: white !important;
+}
+.navbar-default .navbar-nav li a {
+    color: #d5d5d5;
+
+}
+.nav-item em:hover, .navbar-item em:active{
+    color: lightblue;
+}
+/*about me*/
+.btn {
+    background-color: #4d778b;
+    color: white;
+}
+#one {
+    text-decoration: none;
+    color:white;
+}
+#home {
+    background: url(image/bg3.jpeg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text { 
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.landing-text h1 { 
+    font-family: 'Anton', serif;
+    font-size: 500%;
+    font-weight: 700;
+    color: beige
+}
+.landing-text h3 {
+    color: beige;
+}
+.padding { 
+    padding: 80px 0;
+    border: 1px solid lightgray;
+}
+.padding img {
+    width: 75%;
+    border-radius: 50%;
+}
+.img-responsive {
+    border: 1px solid lightgray;
+    width: 33.3%;
+}
+#fixed {
+    background: url(image/bg7.jpeg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+#fixed2 {
+    background: url(image/bg7.jpeg) no-repeat center center fixed;
+    display: table;
+    height: 50%;
+    position: relative;
+    width: 100%;
+    background-size:cover;
+}
+footer {
+    width: 100%;
+    background:#4f68a3;
+    padding: 5% 5% 10% 5%;
+    color: white;
+    margin-bottom: 0;
+    height: 35%;;
+}
+.fab {
+    padding: 15px;
+    font-size: 45px;
+    color: #fff;
+}
+.fab:hover {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+form {
+    
+    background-color: #4f68a3;
+}
+.lab {
+    font-size: 20px;
+    font-weight: 500;
+}
+label {
+    padding: 2px 0 0 3px;
+    color: white;
+}
+input {
+    width: 50%;
+}
+#myBtn { 
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    background:black;
+    color: white;
+    padding:15px;
+cursor: pointer;
+border-radius: 5px;
+}
+#myBtn:hover {
+    background-color: red;
+}
+@media (max-width: 768px) {
+    .landing-text h1 {
+        font-size: 300%;
+        
+    }
+    .fab { font-size: 20px;
+        padding: 10px;
+    }
+    .icon{
+        padding-top: 5%;
+        width: 100px; 
+    }
+   
+    
+}
